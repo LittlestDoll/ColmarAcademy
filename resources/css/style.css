@@ -1,11 +1,53 @@
 html {
   font-family: Verdana;
   font-size: 16px;
-  color: black;
 }
 
 header {
   position: fixed;
+  display: inline-flex;
+  height: 64px;
+  width: 100%;
+  background-color: white;
+  z-index: 5;
+  padding-left: 24px;
+}
+
+header .header {
+  display: flex;
+  width: 1180px;
+  height: 100%;
+  align-items: center;
+  flex-direction: row;
+}
+
+header .header a {
+  text-decoration: none;
+  color: darkgrey;
+}
+
+.colmar {
+  font-weight: bold;
+  color: black;
+}
+
+.academy {
+  font-weight: lighter;
+  color: #D3D3D3;
+}
+.menu {
+  align-content: flex-end;
+}
+
+header nav ul li {
+  display: inline-flex;
+  flex-direction: row;
+  text-decoration: none;
+  padding: 16px;
+}
+
+.menu img {
+  display: none;
 }
 
 section {
