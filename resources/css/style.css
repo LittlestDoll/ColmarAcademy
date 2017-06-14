@@ -76,14 +76,18 @@ section {
   text-size: 3rem;
 }
 
+.second {
+  padding-left: 24px;
+  padding-top: 32px;
+  padding-bottom: 40px;
+}
+
 .section2 {
   width: 70%;
-  padding: 24px;
 }
 
 .section2 img {
   width: 90%;
-  padding-top: 32px;
   padding-bottom: 32px;
 }
 
