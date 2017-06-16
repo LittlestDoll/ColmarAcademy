@@ -55,6 +55,10 @@ section {
   display: flex;
 }
 
+.section1 {
+  margin-top: 50px;
+}
+
 .first {
   background-color: #D3D3D3;
   width: 100%;
